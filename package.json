@@ -1,0 +1,33 @@
+{
+  "name": "herocoders-test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Filip Gorny <filip.gorny@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest --forceExit",
+    "run": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "jest": "^25.4.0",
+    "module-alias": "^2.2.2",
+    "terminal-kit": "^3.0.0",
+    "ts-jest": "^25.4.0",
+    "ts-node-dev": "^1.0.0-pre.39",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.3",
+    "typescript-transform-paths": "^1.1.14"
+  },
+  "_moduleAliases": {
+    "~": "dist/src"
+  }
+}
